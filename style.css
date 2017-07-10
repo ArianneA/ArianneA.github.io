@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://wallpapercave.com/wp/kSQNifX.jpg);
+  background-image: url(photos/Background.jpg);
   color: white;
 }
 .topButton {
@@ -14,6 +14,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.about p {
+  font-size: 20px;
+  margin-top: 0px;
 }
 #profilepic {
   width: 100px;
@@ -36,12 +40,34 @@ body {
   width: 47px;
   height: 47px;
 }
-.button {
-  font-size: 12px;
-  text-decoration: none;
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-  padding: 12px;
-  display: inline-block;
+.portButton {
+  display: flex;
+  justify-content: center;
+}
+.button_1 {
+  background-color: transparent;
+  color: white;
+  font-size: 21px;
+  font-style: italic;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 92px;
+  height: 48px;
+}
+
+/* CSS for portfolio page */
+.heading {
+  text-align: center;
+}
+.portcards {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: gray;
+}
+.card-image{
+  height: 100px;
+  width: 100px;
 }
