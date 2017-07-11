@@ -72,6 +72,13 @@ body {
 .card-image img{
   height: 250px;
   width: 250px;
+  justify-content: space-between;
+  flex-direction: row;
+  color: gray;
+}
+.card-image img{
+  height: 200px;
+  width: 200px;
   position: absolute;
 }
 .card-header {
@@ -91,4 +98,6 @@ body {
 .card-header:hover {
   background-color: rgba(239, 239, 239, 0.5);
   color: black;
+  left: 40%;
+  top: 40%;
 }
