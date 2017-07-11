@@ -84,20 +84,17 @@ body {
 .card-header {
   position: relative;
   left: -1%;
-  bottom: 8%;
+  bottom: 10%;
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
-  line-height: 250px;
+  line-height: 200px;
   text-align: center;
   border-radius: 8px;
-  width: 250%;
+  width: 200%;
 }
 #last {
-  width: 170px;
+  width: 135px;
 }
 .card-header:hover {
   background-color: rgba(239, 239, 239, 0.5);
-  color: black;
-  left: 40%;
-  top: 40%;
 }
