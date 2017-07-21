@@ -92,9 +92,13 @@ body {
   border-radius: 8px;
   width: 200%;
 }
+.card-header a{
+  text-decoration: none;
+  color: white;
+}
 #last {
   width: 135px;
 }
-.card-header:hover {
-  background-color: rgba(239, 239, 239, 0.5);
+.card-header a:hover {
+  color: #11c6b1;
 }
